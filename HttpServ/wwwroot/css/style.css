@@ -1,0 +1,227 @@
+body {
+    margin: 0;
+    font-family: Inter,sans-serif;
+}
+
+.header {
+    background-color: #e8e8e8;
+}
+
+[class$="container"] {
+    margin: 0 auto;
+    max-width: 1355px;
+    padding: 0 15px;
+}
+
+.header__container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.menu {
+    margin-left: 40px;
+    width: 400px;
+    @media (max-width: 700px) {
+        margin-left: 0;
+    }
+}
+
+.sign-in {
+    margin-right: 0;
+    width: 300px;
+}
+
+.header__list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.text-button {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.text-button:hover {
+    background-color: #c8c8c8;
+}
+
+/*.text-button:active {*/
+/*    background-color: #e8e8e8;*/
+/*}*/
+
+.search__bar {
+    position: relative;
+    margin-right: 55px;
+    margin-left: auto;
+}
+
+.search__input {
+    border: 2px solid #000;
+    border-radius: 28px;
+    font-size: 20px;
+    height: 32px;
+    padding-left: 26px;
+    padding-right: 35px;
+    width: 240px;
+    background-color: #e8e8e8;
+}
+
+.search__image {
+    position: absolute;
+    right: 4%;
+    top: 20%;
+}
+
+.main__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.recipes {
+    background-color: #f8f8f8;
+    margin: 21px 0;
+    width: 270px;
+    @media (max-width: 700px) {
+        margin: 21px auto 0;
+    }
+}
+
+.articles {
+    background-color: #f8f8f8;
+    margin: 21px 0;
+    width: 270px;
+    @media (max-width: 700px) {
+        margin: 0 auto 21px;
+    }
+}
+
+.menu__title {
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.menu__list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.menu__link {
+    text-decoration: none;
+}
+
+.menu__button {
+    padding-left: 2px;
+    margin: 8px;
+    width: auto;
+    height: 78px;
+    background-color: #e8e8e8;
+    font-size: 19px;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.menu__button:hover {
+    background-color: #d8d8d8;
+}
+
+
+.main__content {
+    background-color: #f8f8f8;
+    margin: 21px 12px;
+    padding-bottom: 85px;
+    font-size: 24px;
+}
+
+.title {
+    font-size: 24px;
+    margin: 15px;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+.main__inner {
+    margin: 10px 25px;
+    text-align: center;
+    max-width: 660px;
+}
+
+.footer {
+    background-color: #e8e8e8;
+}
+
+.footer__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 120px 0;
+}
+
+.footer__title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer__list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer__list-item {
+    padding-bottom: 20px;
+    text-decoration: underline;
+}
+
+.sign__button {
+    background: #f8f8f8;
+    border: 2px solid #000;
+    border-radius: 28px;
+    color: #000;
+    font-size: 20px;
+    padding: 11px 63px;
+    text-decoration: none;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.sign__button:hover {
+    background-color: #e8e8e8;
+}
+
+.form__inner {
+    margin: 10px 25px;
+    text-align: center;
+    max-width: 660px;
+    display: table-caption;
+}
+
+.sign__input {
+    border: 2px solid #000;
+    border-radius: 28px;
+    font-size: 20px;
+    height: 32px;
+    padding-left: 26px;
+    padding-right: 35px;
+    width: 280px;
+    background-color: #f8f8f8;
+    margin-top: 30px;
+}
+
+.sign-in__list {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+    padding-bottom: 44px;
+}
+
+.sign-in__list-item {
+    padding-bottom: 20px;
+    text-decoration: underline;
+}

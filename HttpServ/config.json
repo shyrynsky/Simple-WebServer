@@ -1,0 +1,8 @@
+{
+  "ServAddress": "127.0.0.1",
+  "ServPort": 80,
+  "IsReverseProxy": true,
+  "RootPath": "D:/4 сем/КСиС/HttpServ/HttpServ/wwwroot",
+  "EndPointAddress": "127.0.0.1",
+  "EndPointPort": 5000
+}
